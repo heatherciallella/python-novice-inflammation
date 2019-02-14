@@ -842,6 +842,17 @@ the graphs will actually be squeezed together more closely.)
 > to make a shortcut like so: `import numpy as np`.
 > If you ever see Python code online using a NumPy function with `np`
 > (for example, `np.loadtxt(...)`), it's because they've used this shortcut.
+> 
+> Similarly, in this lesson, we used the syntax `import matplotlib.pyplot` to 
+> import the `pyplot` module of `matplotlib`.
+> This is also often imported using a shortcut: `import matplotlib.pyplot as plt`.
+> In fact, almost all of the 
+> [Matplotlib tutorials](https://matplotlib.org/tutorials/index.html)
+> that you will find online to help you with plotting will use this in example code.
+> If you ever see Python code that uses the `plt` shortcut (for example, 
+> `plt.show()` instead of `matplotlib.pyplot.show()`, it's because they've used this
+> shortcut.
+>
 > When working with other people, it is important to agree on a convention of how common libraries
 > are imported.
 {: .callout}
